@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, X, Sparkles } from 'lucide-react'
+import { Menu, X, PawPrint } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export function Navbar() {
@@ -23,9 +23,8 @@ export function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="relative">
-              <Sparkles className="h-8 w-8 text-pink-500 group-hover:text-pink-600 transition-colors" />
-              <div className="absolute -top-1 -right-1 w-3 h-3 bg-blue-400 rounded-full opacity-75 group-hover:opacity-100 transition-opacity" />
-            </div>
+              <PawPrint className="h-8 w-8 text-pink-500 group-hover:text-pink-600 transition-colors" />
+           </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent">
               Bougie Paws
             </span>

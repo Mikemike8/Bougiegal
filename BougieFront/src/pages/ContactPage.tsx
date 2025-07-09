@@ -82,7 +82,7 @@ export default function ContactPage() {
 
   return (
     <div className="pt-20">
-      {/* Hero Section */}
+     
       <section className="relative py-20 bg-gradient-to-br from-pink-50 via-white to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -90,11 +90,36 @@ export default function ContactPage() {
               Get in <span className="bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent">Touch</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Ready to give your pet the luxury treatment they deserve? We’re here to answer your questions and schedule your appointment. Experience the Bougie Paws difference today.
+              Ready to give your pet the luxury treatment they deserve? I’m here to answer your questions and schedule your appointment. Experience the Bougie Paws difference today.
             </p>
           </div>
+
+          
+       <div className="flex flex-col md:flex-row justify-center flex-wrap gap-4 md:space-x-8 text-sm text-gray-600 pt-8">
+  <div className="flex items-center space-x-2">
+    <MapPin className="h-5 w-5 text-purple-600" />
+    <span>
+      <strong>Luxury Location:</strong> 123 Elite Boulevard, Beverly Hills, CA 90210
+    </span>
+  </div>
+  <div className="flex items-center space-x-2">
+    <Phone className="h-5 w-5 text-purple-600" />
+    <span>
+      <strong>Call Us:</strong> (555) 123-PAWS
+    </span>
+  </div>
+  <div className="flex items-center space-x-2">
+    <Mail className="h-5 w-5 text-purple-600" />
+    <span>
+      <strong>Email:</strong> hello@bougiepaws.com
+    </span>
+  </div>
+</div>
+
         </div>
       </section>
+    
+
 
     
 
@@ -138,7 +163,7 @@ export default function ContactPage() {
             Ready to Book Your Appointment?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Don’t wait – give your pet the luxury grooming experience they deserve. Book now or call us for immediate assistance.
+            Don’t wait – give your pet the luxury grooming experience they deserve. Book now or call Bougie paws for immediate assistance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

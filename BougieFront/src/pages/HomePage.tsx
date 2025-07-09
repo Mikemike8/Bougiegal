@@ -1,19 +1,19 @@
 import { Link } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
-import { Star, Award, Heart, Sparkles, Crown, Scissors } from 'lucide-react'
+import { Star, Award, Heart, PawPrint, Crown, Scissors } from 'lucide-react'
 
 export default function HomePage() {
   const features = [
     {
       icon: Crown,
       title: 'Luxury Experience',
-      description: 'Premium grooming services inspired by Dior’s attention to detail and elegance.'
+      description: 'Premium grooming services with attention to detail and elegance.'
     },
     {
       icon: Award,
       title: 'Expert Professionals',
-      description: 'Certified grooming specialists with years of experience in luxury pet care.'
+      description: 'Certified grooming specialist with years of experience in luxury pet care.'
     },
     {
       icon: Heart,
@@ -21,9 +21,9 @@ export default function HomePage() {
       description: 'Every service is tailored to your pet’s unique needs and personality.'
     },
     {
-      icon: Sparkles,
+      icon: PawPrint,
       title: 'Premium Products',
-      description: 'We use only the finest, organic products safe for your beloved pet.'
+      description: ' I use only the finest, organic products safe for your beloved pet.'
     }
   ]
 
@@ -44,7 +44,7 @@ export default function HomePage() {
       name: 'Emily Rodriguez',
       pet: 'Poodle - Coco',
       rating: 5,
-      comment: 'The staff treats Coco like royalty. This is luxury pet care at its finest.'
+      comment: 'Bougie Paws treated Coco like royalty. This is luxury pet care at its finest.'
     }
   ]
 
@@ -59,7 +59,7 @@ export default function HomePage() {
       name: 'The Dior Diamond Cut',
       price: '$150',
       duration: '120 min',
-      image: '/images/professional-styling.jpg'
+      image: '/images/pinkdog.jpg'
     },
     {
       name: 'Royal Treatment Package',
@@ -86,7 +86,7 @@ export default function HomePage() {
           <div className="space-y-8">
             {/* Badge */}
             <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-6 py-3">
-              <Sparkles className="h-5 w-5 text-pink-300" />
+              <PawPrint className="h-5 w-5 text-pink-300" />
               <span className="text-sm font-medium">Luxury Pet Grooming Excellence</span>
             </div>
             
@@ -103,8 +103,7 @@ export default function HomePage() {
             
             {/* Subtitle */}
             <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
-              Inspired by Dior’s timeless sophistication, we provide an unparalleled grooming experience that transforms your beloved pet into a work of art.
-            </p>
+            With Bougie Paws’ timeless sophistication, I provide an unparalleled grooming experience that transforms your beloved pet into a true work of art.</p>
             
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
@@ -202,10 +201,10 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              The Bougie Paws <span className="bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent">Difference</span>
+              Why Bougie Paws <span className="bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent">Different</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              What sets us apart is our unwavering commitment to luxury, quality, and the happiness of your furry family members.
+              What sets me apart is my unwavering commitment to luxury, quality, and the happiness of your furry family members.
             </p>
           </div>
           
@@ -234,10 +233,10 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              What Our <span className="bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent">Clients Say</span>
+              What My   <span className="bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent">Clients Say</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Don’t just take our word for it – hear from the satisfied pet parents who trust us with their beloved companions.
+              Don’t just take my word for it – hear from the satisfied pet parents who trust me with their beloved companions.
             </p>
           </div>
           
@@ -283,9 +282,9 @@ export default function HomePage() {
               asChild
               variant="outline"
               size="lg"
-              className="border-2 border-white text-white hover:bg-white/10 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105"
+              className="border-2 border-white text-purple-600 hover:bg-white/10 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105"
             >
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/contact">Contact me</Link>
             </Button>
           </div>
         </div>

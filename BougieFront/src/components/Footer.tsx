@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Heart, MapPin, Phone, Mail, Clock, Sparkles } from 'lucide-react'
+import { Heart, MapPin, Phone, Mail, Clock, PawPrint } from 'lucide-react'
 
 export function Footer() {
   return (
@@ -10,16 +10,14 @@ export function Footer() {
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-2 group">
               <div className="relative">
-                <Sparkles className="h-8 w-8 text-pink-400 group-hover:text-pink-300 transition-colors" />
-                <div className="absolute -top-1 -right-1 w-3 h-3 bg-blue-400 rounded-full opacity-75 group-hover:opacity-100 transition-opacity" />
+                <PawPrint className="h-8 w-8 text-pink-400 group-hover:text-pink-300 transition-colors" />
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-pink-400 to-blue-400 bg-clip-text text-transparent">
                 Bougie Paws
               </span>
             </Link>
             <p className="text-gray-300 text-sm leading-relaxed">
-              The premier destination for luxury dog grooming. We pamper your furry family members with the same attention to detail and elegance that Dior brings to fashion.
-            </p>
+             The premier destination for luxury dog grooming. Bougie Paws pampers your furry family member with unmatched attention to detail and timeless elegance.</p>
             <div className="flex items-center space-x-2 text-pink-400">
               <Heart className="h-4 w-4" />
               <span className="text-sm">Made with love for your pets</span>

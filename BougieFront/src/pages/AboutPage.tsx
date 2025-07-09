@@ -6,47 +6,48 @@ export default function AboutPage() {
     {
       icon: Crown,
       title: 'Luxury Excellence',
-      description: 'We believe every pet deserves the finest care, delivered with the same attention to detail that defines luxury fashion houses like Dior.'
+      description: 'I believe every pet deserves the finest care, delivered with the same attention to detail that defines everything I do.'
     },
     {
       icon: Heart,
       title: 'Compassionate Care',
-      description: 'Our love for animals drives everything we do. Every service is performed with genuine care and respect for your pet’s comfort and well-being.'
+      description: 'My love for animals drives everything I do. Every service is performed with genuine care and respect for your pet’s comfort and well-being.'
     },
     {
       icon: Award,
       title: 'Professional Mastery',
-      description: 'Our team consists of certified professionals with years of experience in luxury pet grooming and an unwavering commitment to excellence.'
-    },
+      description: 'I am a certified professional with years of experience in luxury pet grooming and an unwavering commitment to excellence.'},
     {
       icon: Sparkles,
       title: 'Personalized Experience',
-      description: 'We understand that every pet is unique. Our services are tailored to meet the individual needs and personality of each furry client.'
-    }
+      description: 'I understand that every pet is unique. My services are tailored to meet the individual needs and personality of each furry client.'}
   ]
 
   const team = [
-    {
-      name: 'Isabella Laurent',
-      title: 'Founder & Master Groomer',
-      experience: '15+ years',
-      specialty: 'Luxury cuts and styling',
-      image: '/images/team-professionals.jpg'
-    },
-    {
-      name: 'Marcus Chen',
-      title: 'Senior Grooming Specialist',
-      experience: '12+ years',
-      specialty: 'Breed-specific grooming',
-      image: '/images/team-professionals.jpg'
-    },
-    {
-      name: 'Sofia Rodriguez',
-      title: 'Spa Treatment Expert',
-      experience: '10+ years',
-      specialty: 'Therapeutic treatments',
-      image: '/images/team-professionals.jpg'
-    }
+   
+  {
+    name: 'Custom Styling',
+    title: 'Signature Cuts & Creative Styling',
+    experience: 'Tailored to your pet',
+    specialty: 'Creating unique, fashionable looks for every pet',
+    image: '/images/tishdogOne.jpg'
+  },
+  {
+    name: 'Therapeutic Treatment',
+    title: 'Relaxing Spa Treatments',
+    experience: 'Wellness focused',
+    specialty: 'Soothing baths, skin care, and calming therapies',
+    image: '/images/tishdogTwo.jpg'
+  },
+  {
+    name: 'Breed-Specific Grooming',
+    title: 'Expert Breed Standards',
+    experience: 'Precision and care',
+    specialty: 'Perfect trims and styling for each breed’s unique needs',
+    image: '/images/tishdogThree.jpg'
+  }
+
+
   ]
 
   const stats = [
@@ -65,14 +66,13 @@ export default function AboutPage() {
             <div className="space-y-8">
               <div>
                 <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-                  Our <span className="bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent">Story</span>
+                  My <span className="bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent">Story</span>
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed mb-6">
                   Born from a passion for luxury and an unwavering love for animals, Bougie Paws represents the pinnacle of pet grooming excellence.
                 </p>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Inspired by the timeless elegance of Dior and other luxury fashion houses, we created a grooming experience that transforms your beloved pet into a work of art while ensuring their comfort and happiness throughout the entire process.
-                </p>
+               With a touch of timeless sophistication, Bougie paws offer a grooming experience that transforms your beloved pet into a work of art while ensuring their comfort and happiness every step of the way.</p>
               </div>
               
               {/* Stats */}
@@ -91,7 +91,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/images/salon-interior.jpg"
+                  src="/images/tish.jpg"
                   alt="Bougie Paws luxury salon interior"
                   className="w-full h-full object-cover"
                 />
@@ -114,7 +114,7 @@ export default function AboutPage() {
                   <div className="w-12 h-12 rounded-full bg-gradient-to-br from-pink-500 to-purple-500 flex items-center justify-center mr-4">
                     <Heart className="h-6 w-6 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900">Our Mission</h3>
+                  <h3 className="text-2xl font-bold text-gray-900">My Mission</h3>
                 </div>
                 <p className="text-gray-600 leading-relaxed text-lg">
                   To provide an unparalleled luxury grooming experience that celebrates the unique beauty of every pet while ensuring their comfort, safety, and happiness. We strive to create lasting relationships with pet families through exceptional service and genuine care.
@@ -129,7 +129,7 @@ export default function AboutPage() {
                   <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center mr-4">
                     <Star className="h-6 w-6 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900">Our Vision</h3>
+                  <h3 className="text-2xl font-bold text-gray-900">My Vision</h3>
                 </div>
                 <p className="text-gray-600 leading-relaxed text-lg">
                   To be the world’s most trusted name in luxury pet grooming, setting the standard for excellence in the industry. We envision a world where every pet receives the royal treatment they deserve, regardless of size, breed, or background.
@@ -145,7 +145,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Our <span className="bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent">Values</span>
+              My <span className="bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent">Values</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               These core principles guide every decision we make and every service we provide.
@@ -180,7 +180,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Meet Our <span className="bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent">Expert Team</span>
+              Meet Me <span className="bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent">Master Groomer</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Our passionate professionals bring years of experience and an unwavering commitment to your pet’s well-being.
@@ -222,16 +222,15 @@ export default function AboutPage() {
           <div className="space-y-8">
             <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-6 py-3">
               <Users className="h-5 w-5 text-pink-300" />
-              <span className="text-sm font-medium">Our Promise to You</span>
+              <span className="text-sm font-medium">My Promise to You</span>
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Your Pet’s Happiness is Our Priority
+              Your Pet’s Happiness is My Priority
             </h2>
             
             <p className="text-xl opacity-90 max-w-3xl mx-auto leading-relaxed">
-              We understand that your pet is not just an animal – they’re a cherished family member. That’s why we’ve dedicated ourselves to providing a grooming experience that prioritizes their comfort, safety, and happiness above all else.
-            </p>
+           “I understand that your pet is not just an animal — they’re a cherished member of your family. That’s why I’ve dedicated myself to providing a grooming experience that prioritizes their comfort, safety, and happiness above all else.”</p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8">
               <div className="text-center">
