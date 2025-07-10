@@ -47,7 +47,7 @@ export function Navbar() {
             ))}
             <Button
               asChild
-              className="bg-gradient-to-r from-pink-500 to-blue-500 hover:from-pink-600 hover:to-blue-600 text-white px-6 py-2 rounded-full font-medium transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl"
+              className="bg-gradient-to-r from-pink-500 to-blue-500 hover:from-pink-600 hover:to-blue-600 text-white px-6 py-2 rounded font-medium transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl"
             >
               <Link to="/shop">Book Now</Link>
             </Button>

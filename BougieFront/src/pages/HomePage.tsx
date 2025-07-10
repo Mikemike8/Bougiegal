@@ -110,7 +110,7 @@ export default function HomePage() {
               <Button
                 asChild
                 size="lg"
-                className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-2xl hover:shadow-pink-500/25"
+                className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-4 rounded font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-2xl hover:shadow-pink-500/25"
               >
                 <Link to="/shop">Book Your Luxury Experience</Link>
               </Button>
@@ -118,7 +118,7 @@ export default function HomePage() {
                 asChild
                 variant="outline"
                 size="lg"
-                className="border-2 border-white/30 text-gray hover:bg-white/10 backdrop-blur-md px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105"
+                className="border-2 border-white/30 text-gray hover:bg-white/10 backdrop-blur-md px-8 py-4 rounded font-semibold text-lg transition-all duration-300 hover:scale-105"
               >
                 <Link to="/about" className='text-purple-600 '>Discover Our Story</Link>
               </Button>
@@ -185,7 +185,7 @@ export default function HomePage() {
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">{service.name}</h3>
                   <Button
                     asChild
-                    className="w-full bg-gradient-to-r from-pink-500 to-blue-500 hover:from-pink-600 hover:to-blue-600 text-white rounded-full font-medium transition-all duration-200"
+                    className="w-full bg-gradient-to-r from-pink-500 to-blue-500 hover:from-pink-600 hover:to-blue-600 text-white rounded font-medium transition-all duration-200"
                   >
                     <Link to="/shop">Book This Service</Link>
                   </Button>
@@ -274,7 +274,7 @@ export default function HomePage() {
             <Button
               asChild
               size="lg"
-              className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105"
+              className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded font-semibold text-lg transition-all duration-300 hover:scale-105"
             >
               <Link to="/shop">Book Appointment</Link>
             </Button>
@@ -282,7 +282,7 @@ export default function HomePage() {
               asChild
               variant="outline"
               size="lg"
-              className="border-2 border-white text-purple-600 hover:bg-white/10 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105"
+              className="border-2 border-white text-purple-600 hover:bg-white/10 px-8 py-4 rounded font-semibold text-lg transition-all duration-300 hover:scale-105"
             >
               <Link to="/contact">Contact me</Link>
             </Button>

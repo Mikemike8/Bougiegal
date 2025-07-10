@@ -261,7 +261,7 @@ export default function ShopPage() {
                           <h3 className="text-xl font-semibold text-gray-900 mb-2">{service.name}</h3>
                           <Button
                             asChild
-                            className="w-full bg-gradient-to-r from-pink-500 to-blue-500 hover:from-pink-600 hover:to-blue-600 text-white rounded-full font-medium transition-all duration-200"
+                            className="w-full bg-gradient-to-r from-pink-500 to-blue-500 hover:from-pink-600 hover:to-blue-600 text-white rounded font-medium transition-all duration-200"
                           >
                             <Link to="/shop">Book This Service</Link>
                           </Button>

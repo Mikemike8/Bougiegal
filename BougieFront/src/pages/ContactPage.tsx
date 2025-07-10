@@ -169,7 +169,7 @@ export default function ContactPage() {
             <Button
               asChild
               size="lg"
-              className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105"
+              className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded font-semibold text-lg transition-all duration-300 hover:scale-105"
             >
               <a href="/shop">Book Online</a>
             </Button>
@@ -177,7 +177,7 @@ export default function ContactPage() {
               asChild
               variant="outline"
               size="lg"
-              className="border-2 border-white text-purple-600 hover:bg-white/10 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105"
+              className="border-2 border-white text-purple-600 hover:bg-white/10 px-8 py-4 rounded font-semibold text-lg transition-all duration-300 hover:scale-105"
             >
               <a href="tel:(555)123-7297">Call (555) 123-PAWS</a>
             </Button>
