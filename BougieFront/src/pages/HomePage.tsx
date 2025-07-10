@@ -112,7 +112,7 @@ export default function HomePage() {
                 size="lg"
                 className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-4 rounded font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-2xl hover:shadow-pink-500/25"
               >
-                <Link to="/shop">Book Your Luxury Experience</Link>
+                <Link to="/shop">Book Your Experience</Link>
               </Button>
               <Button
                 asChild
