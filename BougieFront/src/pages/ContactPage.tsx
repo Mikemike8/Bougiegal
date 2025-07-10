@@ -81,7 +81,7 @@ export default function ContactPage() {
   
 
   return (
-    <div className="pt-20">
+    <div className="pt-20 overflow-hidden">
      
       <section className="relative py-20 bg-gradient-to-br from-pink-50 via-white to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
