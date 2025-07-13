@@ -263,7 +263,10 @@ export default function ShopPage() {
                             asChild
                             className="w-full bg-gradient-to-r from-pink-500 to-blue-500 hover:from-pink-600 hover:to-blue-600 text-white rounded font-medium transition-all duration-200"
                           >
-                            <Link to="/shop">Book This Service</Link>
+                           <a href="https://calendly.com/michaeljh811/30min" target="_blank" rel="noopener noreferrer">
+  Book 30-Min Call
+</a>
+
                           </Button>
                         </CardContent>
                       </Card>
