@@ -1,0 +1,39 @@
+# dependencies
+node_modules/
+
+# build output
+build/
+dist/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE/editor configs
+.vscode/
+.idea/
+.DS_Store
+
+# OS files
+Thumbs.db
+
+# Next.js or other frameworks (if applicable)
+.next/
+
+# Optional: ignore Tailwind's output if you generate separate CSS files (usually not necessary)
+# tailwind.css or similar, if you generate it dynamically
+
+# Optional: ignore coverage reports
+coverage/
+
+# Optional: ignore package lock files (not recommended, but sometimes needed)
+# package-lock.json
+# yarn.lock
