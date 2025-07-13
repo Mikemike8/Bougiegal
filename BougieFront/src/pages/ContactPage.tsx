@@ -96,13 +96,13 @@ export default function ContactPage() {
   <div className="flex items-center space-x-2">
     <MapPin className="h-5 w-5 text-purple-600" />
     <span>
-      <strong>Luxury Location:</strong> 123 Elite Boulevard, Beverly Hills, CA 90210
+      <strong>Luxury Location:</strong> 1484 airways blvd, Memphis, Tennessee 38114
     </span>
   </div>
   <div className="flex items-center space-x-2">
     <Phone className="h-5 w-5 text-purple-600" />
     <span>
-      <strong>Call Us:</strong> (555) 123-PAWS
+      <strong>Call Us:</strong> (901) 878-0642
     </span>
   </div>
   <div className="flex items-center space-x-2">
