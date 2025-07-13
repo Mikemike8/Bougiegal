@@ -42,20 +42,17 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: MapPin,
-      title: 'Visit Our Luxury Salon',
+      title: 'Visit Our Luxury Sa484n',
       details: [
-        '123 Elite Boulevard',
-        'Beverly Hills, CA 90210',
-        'Valet parking available'
+        '1484 Airways Boulevard',
+        'Memphis, TN 38114'
       ]
     },
     {
       icon: Phone,
       title: 'Call or Text Us',
       details: [
-        '(555) 123-PAWS',
-        '(555) 123-7297',
-        'Available 7 days a week'
+        '(901) 878-0642'
       ]
     },
     {
@@ -99,13 +96,13 @@ export default function ContactPage() {
   <div className="flex items-center space-x-2">
     <MapPin className="h-5 w-5 text-purple-600" />
     <span>
-      <strong>Luxury Location:</strong> 123 Elite Boulevard, Beverly Hills, CA 90210
+      <strong>Luxury Location:</strong> 1484 airways blvd, Memphis, Tennessee 38114
     </span>
   </div>
   <div className="flex items-center space-x-2">
     <Phone className="h-5 w-5 text-purple-600" />
     <span>
-      <strong>Call Us:</strong> (555) 123-PAWS
+      <strong>Call Us:</strong> (901) 878-0642
     </span>
   </div>
   <div className="flex items-center space-x-2">

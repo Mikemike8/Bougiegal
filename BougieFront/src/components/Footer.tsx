@@ -71,8 +71,8 @@ export function Footer() {
                 <MapPin className="h-5 w-5 text-pink-400 mt-0.5 flex-shrink-0" />
                 <div className="text-gray-300 text-sm">
                   <div className="font-medium text-white">Luxury Location</div>
-                  <div>123 Elite Boulevard</div>
-                  <div>Beverly Hills, CA 90210</div>
+                  <div>1484 Airways Boulevard</div>
+                  <div>Memphis, TN 38114</div>
                 </div>
               </div>
               
@@ -80,7 +80,7 @@ export function Footer() {
                 <Phone className="h-5 w-5 text-pink-400 flex-shrink-0" />
                 <div className="text-gray-300 text-sm">
                   <div className="font-medium text-white">Call Us</div>
-                  <div>(555) 123-PAWS</div>
+                  <div>(901) 878-0642</div>
                 </div>
               </div>
               
